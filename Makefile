@@ -5,4 +5,7 @@ requirements:
 
 .PHONY: test
 test:
-	pytest
+	pytest -vv
+
+.PHONY: all
+all: requirements test
