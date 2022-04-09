@@ -32,7 +32,9 @@ Not all of the examples have an accompanying tutorial (yet), but were written to
 If you have any feedback, questions, or PyTest features you'd like to see covered, please let me know on Pluralsight Slack as [@david.sturgis](https://pluralsight.slack.com/team/U036DTQQ1), or via email at [david-sturgis@pluralsight.com](mailto:david-sturgis@pluralsight.com), or via [GitHub Issues](https://github.com/pluralsight/intro-to-pytest/issues) (or a PR, now that I have PR notifcations turned on!).
 
 
-## Personal notes
+# Personal notes
+
+## Makefile
 
 Also, check the `Makefile` with instructions for more detail:
 
@@ -40,3 +42,7 @@ Also, check the `Makefile` with instructions for more detail:
 make requirements
 make test
 ```
+
+## Set up localstack in local machine.
+
+For details check: https://hands-on.cloud/testing-python-aws-applications-using-localstack/#h-installing-localstack-on-local-machine
