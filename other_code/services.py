@@ -19,6 +19,10 @@ FakeRow = namedtuple("FakeRow", ("id", "name", "value"))
 def db_service(query_parameters):
     """
     A fake DB service that takes a remarkably long time to yield results
+
+    >>> msg = "Example of a doctest..."
+    >>> print(msg)
+    Example of a doctest...
     """
     print("(Doing expensive database stuff!)")
 

@@ -1,11 +1,9 @@
 
-.PHONY: requirements
+
 requirements:
 	pip install -r requirements.txt
 
-.PHONY: test
 test:
-	pytest -vv
+	pytest --doctest-modules -vv -- $(TARGET_DIRS)
 
-.PHONY: all
 all: requirements test
